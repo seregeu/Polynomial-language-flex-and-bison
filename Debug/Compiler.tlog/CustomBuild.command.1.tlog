@@ -1,0 +1,5 @@
+^C:\USERS\USER\DESKTOP\ЛАБЫ 6 СЕМ\КОМПИЛЯТОРЫ\2\COMPILER\PARSER.Y
+set PATH=C:\Users\User\Desktop\Лабы 6 сем\Компиляторы\2\Compiler\tools\bin;%PATH%
+bison -d Parser.y
+^C:\USERS\USER\DESKTOP\ЛАБЫ 6 СЕМ\КОМПИЛЯТОРЫ\2\COMPILER\LEXER.L
+"C:\Users\User\Desktop\Лабы 6 сем\Компиляторы\2\Compiler\tools\bin\flex" -oLexer.c Lexer.l

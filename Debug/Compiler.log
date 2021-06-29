@@ -1,0 +1,511 @@
+﻿  Running Bison
+  m4: cannot open `6': No such file or directory
+  m4: cannot open `ёхь\╩юьяшы ЄюЁ√\2\Compiler\tools/share/bison': No such file or directory
+  m4: cannot open `C:\Users\User\Desktop\╦рс√': No such file or directory
+  m4: cannot open `6': No such file or directory
+  m4: cannot open `ёхь\╩юьяшы ЄюЁ√\2\Compiler\tools/share/bison/m4sugar/m4sugar.m4': No such file or directory
+  m4: cannot open `C:\Users\User\Desktop\╦рс√': No such file or directory
+  m4: cannot open `6': No such file or directory
+  m4: cannot open `ёхь\╩юьяшы ЄюЁ√\2\Compiler\tools/share/bison/bison.m4': No such file or directory
+  m4: cannot open `C:\Users\User\Desktop\╦рс√': No such file or directory
+  m4: cannot open `6': No such file or directory
+  m4: cannot open `ёхь\╩юьяшы ЄюЁ√\2\Compiler\tools/share/bison/c-skel.m4': No such file or directory
+  m4_init()
+  m4_define([b4_actions], 
+  [b4_case(2, [b4_syncline(23, [["Parser.y"]])
+  [    {
+  	int test = ]b4_lhs_value([val])[;
+  	]b4_lhs_value([val])[ = ]b4_rhs_value(1, 1, [val])[;
+  	int val = ]b4_rhs_value(1, 1, [val])[;
+  	printf("%d\n", val);
+  ;}]])
+  
+  b4_case(3, [b4_syncline(30, [["Parser.y"]])
+  [    {
+  	int test = ]b4_lhs_value([val])[;
+  	]b4_lhs_value([val])[ = ]b4_rhs_value(2, 1, [val])[;
+  	int val1 = ]b4_rhs_value(2, 1, [val])[;
+  	int val2 = ]b4_rhs_value(2, 2, [val])[;
+  	printf("%d\n", val2);
+  ;}]])
+  
+  ])
+  
+  m4_define([b4_mergers], 
+  [[]])
+  
+  m4_define([b4_tokens], 
+  [[[[ELEM]], 258]])
+  
+  m4_define([b4_symbol_destructors], 
+  [])
+  
+  m4_define([b4_symbol_printers], 
+  [])
+  
+  m4_define([b4_translate],
+  [[     0,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     2,     2,     2,     2,
+         2,     2,     2,     2,     2,     2,     1,     2,     3]])
+  
+  
+  m4_define([b4_use_push_for_pull_flag],
+  [[0]])
+  
+  
+  m4_define([b4_pact_ninf],
+  [[-3]])
+  
+  
+  m4_define([b4_conflict_list_heads],
+  [[     0,     0,     0,     0]])
+  
+  
+  m4_define([b4_toknum_max],
+  [[258]])
+  
+  
+  m4_define([b4_rhs],
+  [[     5,     0,    -1,     3,    -1,     5,     3,    -1]])
+  
+  
+  m4_define([b4_last],
+  [[3]])
+  
+  
+  m4_define([b4_stos_min],
+  [[0]])
+  
+  
+  m4_define([b4_tag_seen_flag],
+  [[1]])
+  
+  
+  m4_define([b4_percent_define_loc(lr.keep_unreachable_states)],
+  [[[[[Bison:muscle_percent_define_default]:1.0]], [[[Bison:muscle_percent_define_default]:1.0]]]])
+  
+  
+  m4_define([b4_parser_file_name],
+  [[Parser.tab.c]])
+  
+  
+  m4_define([b4_table_min],
+  [[0]])
+  
+  
+  m4_define([b4_table],
+  [[     3,     1,     0,     4]])
+  
+  
+  m4_define([b4_conflicting_rules_max],
+  [[0]])
+  
+  
+  m4_define([b4_merger],
+  [[     0,     0,     0,     0]])
+  
+  
+  m4_define([b4_glr_flag],
+  [[0]])
+  
+  
+  m4_define([b4_check_max],
+  [[3]])
+  
+  
+  m4_define([b4_spec_graph_file],
+  [[]])
+  
+  
+  m4_define([b4_rline_min],
+  [[0]])
+  
+  
+  m4_define([b4_toknum],
+  [[     0,   256,   257,   258]])
+  
+  
+  m4_define([b4_defgoto_max],
+  [[2]])
+  
+  
+  m4_define([b4_version],
+  [[2.4.1]])
+  
+  
+  m4_define([b4_translate_min],
+  [[0]])
+  
+  
+  m4_define([b4_stype],
+  [[]b4_syncline(12, [["Parser.y"]])[
+  
+  	int val;
+  
+  ]])
+  
+  
+  m4_define([b4_pkgdatadir],
+  [[C:\Users\User\Desktop\╦рс√ 6 ёхь\╩юьяшы ЄюЁ√\2\Compiler\tools/share/bison]])
+  
+  
+  m4_define([b4_pgoto_min],
+  [[-3]])
+  
+  
+  m4_define([b4_rhs_max],
+  [[5]])
+  
+  
+  m4_define([b4_pgoto],
+  [[    -3,    -3]])
+  
+  
+  m4_define([b4_pact_max],
+  [[0]])
+  
+  
+  m4_define([b4_debug_flag],
+  [[0]])
+  
+  
+  m4_define([b4_yacc_flag],
+  [[0]])
+  
+  
+  m4_define([b4_spec_verbose_file],
+  [[]])
+  
+  
+  m4_define([b4_conflict_list_heads_min],
+  [[0]])
+  
+  
+  m4_define([b4_tname],
+  [["$][end", "error", "$][undefined", "ELEM", "$][accept", "LIST", ]b4_null[]])
+  
+  
+  m4_define([b4_defact],
+  [[     0,     2,     0,     1,     3]])
+  
+  
+  m4_define([b4_tokens_number],
+  [[4]])
+  
+  
+  m4_define([b4_stos_max],
+  [[5]])
+  
+  
+  m4_define([b4_merger_min],
+  [[0]])
+  
+  
+  m4_define([b4_table_max],
+  [[4]])
+  
+  
+  m4_define([b4_spec_name_prefix],
+  [[]])
+  
+  
+  m4_define([b4_epilogue],
+  [[]b4_syncline(38, [["Parser.y"]])[
+  
+  
+  int parser_main(int argc, char* argv[])
+  {
+  	if (argc > 2)
+  	{
+  		printf("Error: too many parameters\n");
+  		return 1;
+  	}
+  	if (argc == 2)
+  	{
+  		yyin = fopen(argv[1], "rb");
+  		if (yyin == NULL)
+  		{
+  			printf("Error: file wasn't opened\n");
+  			exit(1);
+  		}
+  		yyparse();
+  		fclose(yyin);
+  	}
+  	else if (argc == 1)
+  	{
+  		yyparse();
+  	}
+  	return 0;
+  }
+  
+  void yyerror(const char* error_string)
+  {
+  	printf("error\n");
+  	return 1;
+  }]])
+  
+  
+  m4_define([b4_table_ninf],
+  [[-1]])
+  
+  
+  m4_define([b4_prhs],
+  [[     0,     0,     3,     5]])
+  
+  
+  m4_define([b4_check],
+  [[     0,     3,    -1,     3]])
+  
+  
+  m4_define([b4_nterms_number],
+  [[2]])
+  
+  
+  m4_define([b4_rline_max],
+  [[29]])
+  
+  
+  m4_define([b4_dprec],
+  [[     0,     0,     0,     0]])
+  
+  
+  m4_define([b4_rline],
+  [[     0,    22,    22,    29]])
+  
+  
+  m4_define([b4_prhs_min],
+  [[0]])
+  
+  
+  m4_define([b4_spec_outfile],
+  [[]])
+  
+  
+  m4_define([b4_translate_max],
+  [[3]])
+  
+  
+  m4_define([b4_percent_define_syncline(lr.keep_unreachable_states)],
+  [[]b4_syncline(1, [["[Bison:muscle_percent_define_default]"]])[]])
+  
+  
+  m4_define([b4_r1_min],
+  [[0]])
+  
+  
+  m4_define([b4_user_token_number_max],
+  [[258]])
+  
+  
+  m4_define([b4_max_left_semantic_context],
+  [[0]])
+  
+  
+  m4_define([b4_pgoto_max],
+  [[-3]])
+  
+  
+  m4_define([b4_rules_number],
+  [[3]])
+  
+  
+  m4_define([b4_file_name_all_but_ext],
+  [[Parser.tab]])
+  
+  
+  m4_define([b4_error_verbose_flag],
+  [[0]])
+  
+  
+  m4_define([b4_token_table],
+  [[0]])
+  
+  
+  m4_define([b4_r2_min],
+  [[0]])
+  
+  
+  m4_define([b4_pact],
+  [[    -2,    -3,     0,    -3,    -3]])
+  
+  
+  m4_define([b4_dprec_min],
+  [[0]])
+  
+  
+  m4_define([b4_defact_min],
+  [[0]])
+  
+  
+  m4_define([b4_defines_flag],
+  [[1]])
+  
+  
+  m4_define([b4_synclines_flag],
+  [[1]])
+  
+  
+  m4_define([b4_nondeterministic_flag],
+  [[0]])
+  
+  
+  m4_define([b4_conflict_list_heads_max],
+  [[0]])
+  
+  
+  m4_define([b4_dir_prefix],
+  [[]])
+  
+  
+  m4_define([b4_union_name],
+  [[]b4_syncline(12, [["Parser.y"]])[
+  symval]])
+  
+  
+  m4_define([b4_merger_max],
+  [[0]])
+  
+  
+  m4_define([b4_undef_token_number],
+  [[2]])
+  
+  
+  m4_define([b4_prhs_max],
+  [[5]])
+  
+  
+  m4_define([b4_spec_file_prefix],
+  [[]])
+  
+  
+  m4_define([b4_r1_max],
+  [[5]])
+  
+  
+  m4_define([b4_toknum_min],
+  [[0]])
+  
+  
+  m4_define([b4_spec_defines_file],
+  [[Parser.tab.h]])
+  
+  
+  m4_define([b4_conflicting_rules_min],
+  [[0]])
+  
+  
+  m4_define([b4_r1],
+  [[     0,     4,     5,     5]])
+  
+  
+  m4_define([b4_pre_prologue],
+  [[]b4_syncline(1, [["Parser.y"]])[
+  
+  
+  #include <stdio.h>
+  
+  FILE* yyin;
+  int yyerror();
+  
+  extern int yylex();
+  
+  ]])
+  
+  
+  m4_define([b4_r2],
+  [[     0,     2,     1,     2]])
+  
+  
+  m4_define([b4_percent_define_bison_variables(lr.keep_unreachable_states)],
+  [[]])
+  
+  
+  m4_define([b4_check_min],
+  [[-1]])
+  
+  
+  m4_define([b4_states_number],
+  [[5]])
+  
+  
+  m4_define([b4_r2_max],
+  [[2]])
+  
+  
+  m4_define([b4_dprec_max],
+  [[0]])
+  
+  
+  m4_define([b4_defgoto],
+  [[    -1,     2]])
+  
+  
+  m4_define([b4_defact_max],
+  [[3]])
+  
+  
+  m4_define([b4_stos],
+  [[     0,     3,     5,     0,     3]])
+  
+  
+  m4_define([b4_final_state_number],
+  [[3]])
+  
+  
+  m4_define([b4_defgoto_min],
+  [[-1]])
+  
+  
+  m4_define([b4_file_name],
+  [["Parser.y"]])
+  
+  
+  m4_define([b4_locations_flag],
+  [[0]])
+  
+  
+  m4_define([b4_percent_define(lr.keep_unreachable_states)],
+  [[false]])
+  
+  
+  m4_define([b4_rhs_min],
+  [[-1]])
+  
+  
+  m4_define([b4_pact_min],
+  [[-3]])
+  
+  
+  m4_define([b4_conflicting_rules],
+  [[     0]])
+  
+  
+  Performing Custom Build Tools
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(234,5): warning MSB8065: Custom build for item "Parser.y" succeeded, but specified output "c:\users\user\desktop\лабы 6 сем\компиляторы\2\compiler\parser.tab.h" has not been created. This may cause incremental build to work incorrectly.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(234,5): warning MSB8065: Custom build for item "Parser.y" succeeded, but specified output "c:\users\user\desktop\лабы 6 сем\компиляторы\2\compiler\parser.tab.c" has not been created. This may cause incremental build to work incorrectly.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(234,5): warning MSB8065: Custom build for item "Lexer.l" succeeded, but specified output "c:\users\user\desktop\лабы 6 сем\компиляторы\2\compiler\parser.tab.h" has not been created. This may cause incremental build to work incorrectly.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(234,5): warning MSB8065: Custom build for item "Lexer.l" succeeded, but specified output "c:\users\user\desktop\лабы 6 сем\компиляторы\2\compiler\parser.tab.c" has not been created. This may cause incremental build to work incorrectly.
+  Compiler.vcxproj -> C:\Users\User\Desktop\Лабы 6 сем\Компиляторы\2\Compiler\Debug\Compiler.exe

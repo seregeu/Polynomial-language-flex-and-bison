@@ -1,0 +1,4 @@
+C:\Users\User\Desktop\Лабы 6 сем\Компиляторы\2\Compiler\Debug\Compiler.exe
+C:\Users\User\Desktop\Лабы 6 сем\Компиляторы\2\Compiler\Debug\Compiler.pdb
+C:\Users\User\Desktop\2\Compiler\Debug\Compiler.exe
+C:\Users\User\Desktop\2\Compiler\Debug\Compiler.pdb
